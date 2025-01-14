@@ -2,6 +2,11 @@
 *.xlsx
 *.xls
 *.txt
+*.zip
+*.png
+*.jpg
+*.jpeg
+mlruns/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
