@@ -5,3 +5,4 @@ scikit-learn==1.4.1.post1
 lightgbm==4.5.0
 pytest==8.3.4
 pyarrow==18.0.0
+gunicorn==23.0.0

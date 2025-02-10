@@ -11,7 +11,7 @@ def load_data(file_path):
 
 # Function to send customer data to API and get prediction
 def get_prediction(customer_data):
-    api_url = "http://127.0.0.1:5000/predict"  # Replace with your API URL
+    api_url = " https://credit-scoring-sra-70fbdcfabc9e.herokuapp.com/predict"  # Replace with your API URL
     data_to_predict = {'data': customer_data.drop("SK_ID_CURR", axis=1).values.tolist()} #losrsque les modèles sans l'ID seront entrainé cela deviendra customer_data.drop("SK_ID_CURR", axis=1).values.tolist()
     response = requests.post(api_url, json=data_to_predict)
     return response.json()
