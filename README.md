@@ -149,3 +149,8 @@ http://127.0.0.1:5000/predict
 streamlit run dashboard.py
 Dashboard accessible à : http://localhost:8501
 
+### 4. MLFlow
+Démarrez l'interface MLFlow en bash en mettant le code¶
+mlflow server --host 0.0.0.0 --port 5001
+ouvrir une page web avec http://localhost:5001
+
