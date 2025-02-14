@@ -90,87 +90,15 @@ Librairies : Pandas, NumPy, Scikit-Learn, LightGBM, Flask, Streamlit
 Outils de suivi : MLflow
 Déploiement : GitHub, GitHub Actions, Heroku
 
-## Installation et Exécution du Projet
-### 1. Cloner le projet
-bash
-Copier
-Modifier
-git clone https://github.com/mon-repo/OCP7.git
+## Les différents liens du Projet
+### 1. Git
+ https://github.com/mon-repo/OCP7.git
 cd OCP7
-### 2. Installer les dépendances
-bash
-Copier
-Modifier
-pip install -r requirements.txt
-### 3. Lancer l’API Flask
-bash
-Copier
-Modifier
-python app.py
-API accessible à : http://127.0.0.1:5000/predict
 
-### 4. Lancer le Dashboard Streamlit
-bash
-Copier
-Modifier
+### 2. API
+http://127.0.0.1:5000/predict
+
+### 3. Dashboard Streamlit
 streamlit run dashboard.py
 Dashboard accessible à : http://localhost:8501
 
-🤝 Comment contribuer
-Forker le projet.
-Créer une branche (feature/ma-nouvelle-feature).
-Committer vos modifications (git commit -m "Ajout d'une nouvelle fonctionnalité").
-Pousser la branche (git push origin feature/ma-nouvelle-feature).
-Créer une Pull Request sur GitHub.
-📩 Informations supplémentaires
-Auteur : Saholy RATSIMANOHITRA
-Date : Février 2025
-Entreprise : Prêt à dépenser (spécialisée dans les crédits à la consommation).
-✅ Ce README permet :
-✅ D’expliquer le contexte du projet et son objectif.
-✅ De détailler les étapes clés du modèle de scoring.
-✅ De guider l’installation et l’utilisation du projet.
-✅ D’illustrer les technologies et outils utilisés.
-✅ D’encourager les contributions et la collaboration.
-
-Ce document est maintenant complet, clair et structuré 
-
-
-
-
-
-
-# OCP7
-Projet n°7 : "Implémentez un modèle de scoring"
-
-Exploration et feature engineering:
-Source de données: Kaggle
-
-
-## Présentatoon du projet
-
-Ce projet vise à développer un modèle de scoring sur des données déséquilibrées, en suivant plusieurs étapes et en utilisant diverses techniques :
-
-- **Traitement des données déséquilibrées**: Application de l'undersampling.
-- **Sélection et entraînement de modèles** : Mise en place de modèles comme le dummy régressif, la régression logistique, LightGBM (LGBM) et la forêt aléatoire (Random Forest).
-- **Suivi des expérimentations avec MLflow** : Utilisation de MLflow pour documenter et suivre les différentes expériences de modélisation.
-- **Choix du meilleur modèle** : Sélection du modèle optimal en fonction des métriques AUC et Business Score, ainsi que du tuning des hyperparamètres.
-- **Tuning du seuil de classification** : Ajustement du seuil de classification pour optimiser les performances du modèle retenu.
-- **Déploiement d'une API Flask** : Création d'une API Flask pour interroger le modèle de prédiction, mise en production sur Heroku.
-- **Mise en place de GitHub et GitHub Actions** : Utilisation de GitHub pour le versioning et l'intégration continue grâce à GitHub Actions, avec des tests unitaires.
-- **Développement d'un dashboard interactif** : Création d'un tableau de bord avec Streamlit, incluant des jauges pour visualiser la probabilité de prédiction, destiné aux gestionnaires de relation client.
-
-## Les technologies utilisées
-- Python
-- VS Code
-- MLFlow
-- Github, Github actions
-- Heroku
-  
-## Comment installer et exécuter le projet (dépendances, commandes à exécuter)
-
-
-## Comment contribuer (si d’autres personnes veulent participer)
-
-
-## Informations supplémentaires (ex: auteur, contact, licence)
