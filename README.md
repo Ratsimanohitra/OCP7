@@ -19,6 +19,53 @@ Ce projet vise à développer un modèle de scoring de crédit capable d’éval
 - Créer un dashboard Streamlit pour visualiser les prédictions et faciliter l’interprétation des résultats.
 - Mettre en place GitHub Actions pour automatiser les tests et l’intégration continue.
 
+### Structure du dossier 
+OCP7/
+│── .github/                      # Configuration de GitHub Actions
+│
+│── data/                          # Données brutes et transformées
+│   ├── data.parquet
+│
+│── models/                        # Stockage des modèles entraînés
+│
+│── notebooks/                     # Notebooks pour l'expérimentation
+│   ├── Projet 7 - Modele de scoring janv 2025.ipynb        # Notebook principal de la modélisation
+│
+│── source/                        
+│   ├── api.py                      # Code pour l'API Flask
+│   └── dashboard.py                # Code pour le dashboard
+│
+│── tests/                         # Tests unitaires et validation du modèle
+│   ├── api_tests.py               # Tests sur l'API
+│ 
+│
+│── mlruns/                        # Suivi des expérimentations MLFlow
+│
+│
+│
+│── .gitignore                     # Fichiers à ignorer par Git
+│── application_test.csv
+│── application_train.csv
+│── bureau.csv
+│── bureau_balance.csv
+│── credit_card_balance.csv
+│── installments_payments.csv
+│── POS_CASH_balance.csv
+│── previous_application.csv
+│── HomeCredit_columns_description.csv
+│── data_drift_report.html      # Rapport de dérive des données
+│── classification_report.txt       # Rapport de classification
+│── confusion_matrix.png            # Matrice de confusion des prédictions
+│── model_comparison.csv            # Comparaison des modèles
+│── random_forest_baseline.csv      # Résultats de Random Forest baseline
+│── log_reg_baseline.csv            # Résultats de la Régression Logistique baseline
+│── Ratsimanohitra_Saholy_4_Tableau_HTML_data_drift_evidently_0.html  # Rapport Evidently AI
+│── Procfile                        # Fichier de configuration Heroku
+│── requirements.txt                # Liste des dépendances du projet
+│── runtime.txt                     # Version de Python utilisée sur Heroku
+│── README.md                       # Documentation principale du projet
+
+
 ## Exploration et Feature Engineering
 
 ### Source des données
