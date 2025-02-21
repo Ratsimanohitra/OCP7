@@ -1,7 +1,12 @@
 *.csv
 *.xlsx
 *.xls
-*.txt
+*.zip
+*matrix.png
+*.jpg
+*.jpeg
+mlruns/
+notebooks/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
