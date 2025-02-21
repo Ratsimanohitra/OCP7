@@ -2,7 +2,7 @@
 *.xlsx
 *.xls
 *.zip
-*.png
+*matrix.png
 *.jpg
 *.jpeg
 mlruns/
